@@ -21,7 +21,7 @@ public class CombatSystem {
         setUnits(blueUnit, redUnit);
         boolean whoAttacks = true;
 
-        while (blueUnit.getLife() > 0 || redUnit.getLife() > 0)
+        while (blueUnit.getLife() > 0 && redUnit.getLife() > 0)
         {
             double variableDam = getVariableDam(whoAttacks);
             if (whoAttacks){

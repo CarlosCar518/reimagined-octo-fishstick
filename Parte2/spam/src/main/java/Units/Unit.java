@@ -2,7 +2,7 @@ package Units;
 
 import Enums.UnitsEnum;
 
-public class Unit {
+abstract public class Unit {
     private double def;
     private double damBase;
     private double life = 100;
