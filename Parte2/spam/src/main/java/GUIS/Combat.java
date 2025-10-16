@@ -223,9 +223,8 @@ public class Combat extends javax.swing.JPanel {
                 (String) redJComboBox3.getSelectedItem(), (String) redJComboBox4.getSelectedItem()};
 
         controller.setArmies(5, controller.parseArmyFromStrings(blueArmy), controller.parseArmyFromStrings(redArmy));
-        boolean result = controller.combat();
 
-        if (result) {
+        if (controller.combat()) {
             resultLabel.setText("Azul gana");
         }
         else {
