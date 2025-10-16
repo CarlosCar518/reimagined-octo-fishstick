@@ -52,6 +52,8 @@ public class GameController {
             }
             armiesStacks.blueArmyStack.removeFirst();
         }
-        return armiesStacks.blueArmyStack.isEmpty();
+        boolean foo = armiesStacks.blueArmyStack.isEmpty();
+        armiesStacks.restart();
+        return foo;
     }
 }

@@ -14,5 +14,9 @@ public class ArmiesStacks {
         this.redArmyStack = new ArrayList<>();
     }
 
+    public void restart() {
+        this.blueArmyStack.clear();
+        this.redArmyStack.clear();
+    }
 
 }
