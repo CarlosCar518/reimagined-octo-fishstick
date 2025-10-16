@@ -1,0 +1,5 @@
+1. Depende de que representación se le quiera dar a esos datos. En mi caso la interfaz, pues ya no es necesario recibir datos de ahí, y añadir algunos métodos al stack de los ejércitos para tomar los datos de un FILE, de resto el programa funcionaría igual gracias a la modularidad.
+
+2.Solo necesitaría cambiar la capa más externa, la interfaz como tal. La lógica del programa se puede aplicar a cualquier capa que se le ponga encima.
+
+3. No. El programa lo pensé como una pirámide que crece y sus cimientos van a estar ahí sin importar lo que tengan encima, así que si modelo tiene relación tan estrecha con algo tan externo como Vista generaría coupling, y si por alguna razón deseo cambiar la vista un poco, tendría que cambiar modelo también y al contrario igual. Lo mejor es separar todo lo posible cada parte del programa, de forma que solo se relacionen entre si por los valores que retornan y sus parámetros.
