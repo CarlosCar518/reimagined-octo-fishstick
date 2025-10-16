@@ -1,0 +1,9 @@
+2.
+
+a. Sin la interfaz realmente el código hubiera sido bastante parecido(Podría usar solo la clase y no cambiaría mucho) pero el uso de ella sí ayuda a la hora de definir ideas y objetivos. Con la interfaz en mente ya sabía lo que por lo menos tenía que hacer cada clase, eso facilita razonar en el problema y en un futuro saber donde encontrar los errores.
+
+b. Dado que la lógica de pago está completamente separada del main y el coupling es muy bajo, no se tendría que cambiar nada a menos que se pida un parámetro diferente a solo las estaciones, en ese caso sí cambiaría un poco pues tendría que pedir eso parámetros también, pero el resto quedaría igual. Esta es una de las ventajas de separar el código.
+
+Es evidente que si se añade una nueva clase tendría que añadirla al Main, pero entiendo que ese no es el tipo de cambio al que se refiere a la pregunta.
+
+C. Una interfaz es más un plan, unos requisitos mínimos que se debe cumplir y de ahí se derivan las soluciones. Una clase concreta ya es la implementación de lo que se pide, ya está definido tal cual como se va a solucionar el problema, mientras que la interfaz solo define unos rasgos que no limitan la implementación interna.
